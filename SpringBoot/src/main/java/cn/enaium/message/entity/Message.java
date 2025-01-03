@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 /**
  * Project: message
@@ -16,10 +17,13 @@ import javax.persistence.Id;
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
+@Table(name = "message")
 public class Message {
     @Id
     private Long id;
     private String author;
     private String message;
     private String time;
+
+
 }

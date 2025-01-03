@@ -44,7 +44,6 @@
                     width="160">
             </el-table-column>
         </el-table>
-        <el-link type="primary" href="https://github.com/Enaium">By Enaium</el-link>
     </div>
 </template>
 
